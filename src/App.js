@@ -38,7 +38,7 @@ let router=createBrowserRouter([
         {path:'allorders',element:<Allorders/>},
         {path:'wishlist',element:<Wishlist/>},
         {path:'categories',element:<ProtectedRoute><Categories/></ProtectedRoute>},
-        {path:'*',element:<Notfound/>}
+        {path:'*',element:<Login/>}
     ]}
 ])
 
