@@ -28,7 +28,6 @@ export default function Login() {
        }
   }
     let  passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z0-9!@#$%^&*()\-_=+{}[\]|\\;:'",.<>/?`~]).{8,}$/;
-   
         let x=Yup.object({
           email:Yup.string().email('Invalid email ').required('email is required '),
           password:Yup.string().matches(passwordRegex,'At least 8 characters,one uppercase,one lowercase,one digit').required('password is required'),

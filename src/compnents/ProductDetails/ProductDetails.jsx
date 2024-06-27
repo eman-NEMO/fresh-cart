@@ -13,7 +13,6 @@ export default function ProductDetails() {
    return axios.get(`https://ecommerce.routemisr.com/api/v1/products/${id}`)
       
   }
-     
   let {isLoading , isError ,data}=useQuery('productDetails',()=>getProductDetails(prams.id))
   console.log(data?.data.data)
 
