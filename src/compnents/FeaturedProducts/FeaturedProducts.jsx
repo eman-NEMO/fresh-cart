@@ -36,18 +36,20 @@ export default function FeaturedProducts() {
     });
   }
   async function addproduct(productId) {
-    let response = await addToCart(productId);
+  try {
+    const response = await addToCart(productId);
+
     if (response?.data.status === "success") {
-    
       console.log("success");
-      {
-        nottify("successfully Added to cart")
-      }
+      nottify("Successfully added to cart");
+    } else {
+      erorr();
     }
-    else{
-      erorr()
-    } 
+  } catch (error) {
+    console.error("Add to cart failed", error);
+    erorr(); // أو تقدر تعرض error.message لو حابب
   }
+}
 
 
   async function addwish(productId) {

@@ -9,21 +9,17 @@ export let CartContext = createContext();
     token: localStorage.getItem("userToken"),
   };
  
- async  function  addToCart(x) {
-    return await  axios
-      .post(
-        `https://ecommerce.routemisr.com/api/v1/cart`,
-        {
-          productId: x,
-        },
-        {
-          headers: headers,
-        }
-      )
-      .then((response) => response)
-      .catch((error) => error);
-  }
-
+ function addToCart(x) {
+  return axios.post(
+    `https://ecommerce.routemisr.com/api/v1/cart`,
+    {
+      productId: x,
+    },
+    {
+      headers: headers,
+    }
+  );
+}
 
   function addToWishList(x) {
     return axios
@@ -53,14 +49,7 @@ export let CartContext = createContext();
       .then((response) => response)
       .catch((error) => error);
   }
-  // function getLogedusercart() {
-  
-  //  return axios.get("https://ecommerce.routemisr.com/api/v1/cart",
-  //  {
-  //     headers: headers,
-  //   }).then((response) => response)
-  //   .catch((error) => error);
-  // }
+ 
 
   function getLogedusercart() {
   
