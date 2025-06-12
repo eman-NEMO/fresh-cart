@@ -9,8 +9,8 @@ export let CartContext = createContext();
     token: localStorage.getItem("userToken"),
   };
  
-  function addToCart(x) {
-    return axios
+ async  function  addToCart(x) {
+    return await  axios
       .post(
         `https://ecommerce.routemisr.com/api/v1/cart`,
         {
@@ -23,6 +23,8 @@ export let CartContext = createContext();
       .then((response) => response)
       .catch((error) => error);
   }
+
+
   function addToWishList(x) {
     return axios
       .post(
