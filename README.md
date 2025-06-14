@@ -16,19 +16,19 @@ This application provides users with a modern and responsive interface to browse
 
 | Login    | Home           | Products       |
 |----------|----------------|----------------|
-| ![Dashboard](./screenshots/login.png) | ![Topics](./screenshots/Home.png) | ![Emotions](./screenshots/products.png) | 
+| ![Dashboard](./DemoScreenShot/login.png) | ![Topics](./DemoScreenShot/Home.png) | ![Emotions](./DemoScreenShot/products.png) | 
 
 ---
 
 | Cart     |payment gateway | Category       |
 |----------|----------------|----------------|
-| ![Dashboard](./screenshots/AddToCart.png) | ![Topics](./screenshots/paymentGetWay.png) | ![Emotions](./screenshots/Category.png) | 
+| ![Dashboard](./DemoScreenShot/AddToCart.png) | ![Topics](./DemoScreenShot/paymentGetWay.png) | ![Emotions](./DemoScreenShot/Category.png) | 
 
 ---
 
 | Brands   |Product Details | NotFound       |
 |----------|----------------|----------------|
-| ![Dashboard](./screenshots/Brands.png) | ![Topics](./screenshots/productDetails.png) | ![Emotions](./screenshots/NoteFound.png) | 
+| ![Dashboard](./DemoScreenShot/Brands.png) | ![Topics](./DemoScreenShot/productDetails.png) | ![Emotions](./DemoScreenShot/NoteFound.png) | 
 
 
 ## 🚀 Features
