@@ -11,6 +11,26 @@ This application provides users with a modern and responsive interface to browse
 
 ---
 
+---
+## 📸 Screenshot From Deployed Demo 
+
+| Login    | Home           | Products       |
+|----------|----------------|----------------|
+| ![Dashboard](screenshots/login.png) | ![Topics](screenshots/Home.png) | ![Emotions](./screenshots/products.png) | 
+
+---
+
+| Cart     |payment gateway | Category       |
+|----------|----------------|----------------|
+| ![Dashboard](screenshots/AddToCart.png) | ![Topics](screenshots/paymentGetWay.png) | ![Emotions](./screenshots/Category.png) | 
+
+---
+
+| Brands   |Product Details | NotFound       |
+|----------|----------------|----------------|
+| ![Dashboard](screenshots/Brands.png) | ![Topics](screenshots/productDetails.png) | ![Emotions](./screenshots/NoteFound.png) | 
+
+
 ## 🚀 Features
 
 1. 🔐 **User Authentication**  
@@ -53,25 +73,6 @@ This application provides users with a modern and responsive interface to browse
 - **Form Handling**: Formik + Yup  
 - **State & Data Fetching**: React Query, Axios  
 - **UI/UX**: Bootstrap, React Slick (Carousel), React Toastify, React Helmet  
-- **Authentication**: JWT (Token-based)  
-
----
-
-## 📸 Screenshots
-
-> Add your screenshots to the `screenshots/` folder and reference them below.
-
-<p align="center">
-  <img src="./screenshots/homepage.png" alt="Home Page" width="700"/>
-</p>
-
-<p align="center">
-  <img src="./screenshots/cart.png" alt="Cart Page" width="700"/>
-</p>
-
-<p align="center">
-  <img src="./screenshots/wishlist.png" alt="Wishlist" width="700"/>
-</p>
 
 ---
 
