@@ -10,6 +10,12 @@ The project integrates with a pre-existing backend and includes user-friendly fe
 This application provides users with a modern and responsive interface to browse products, manage their shopping cart, wishlist items, and perform secure online payments. Built with performance and usability in mind, it ensures an intuitive shopping journey from start to finish.
 
 ---
+## 🎥 Demo Video
+
+[▶️ Watch Demo](https://drive.google.com/file/d/your-demo-id/view)
+
+> Replace the link with your actual demo video hosted on Google Drive or YouTube.  
+> Add a thumbnail in the `screenshots/` folder if needed.
 
 ---
 ## 📸 Screenshot From Deployed Demo 
@@ -31,38 +37,21 @@ This application provides users with a modern and responsive interface to browse
 | ![Dashboard](./DemoScreenShot/Brands.png) | ![Topics](./DemoScreenShot/productDetails.png) | ![Emotions](./DemoScreenShot/NoteFound.png) | 
 
 
-## 🚀 Features
+## ✨ Features
 
-1. 🔐 **User Authentication**  
-   - User registration & login with form validation  
-   - Handling of authentication and authorization securely
+| Feature                          | Description                                                                  |
+|----------------------------------|-----------------------------------------------------------------------------|
+| 🔐 **Authentication**           | Secure user registration and login with robust form validation              |
+| 🏠 **Home Page**                | Product listing with options to add items to cart or view detailed info     |
+| 🛒 **Cart Management**          | Easily view, update, or remove products from the cart                       |
+| ❤️ **Wishlist**                 | Save favorite products to a personalized wishlist                            |
+| 🗂️ **Categories & Brands**      | Filter products efficiently by category and brand                            |
+| 🔍 **Product Search**           | Quickly search for items by name                                             |
+| 💳 **Online Payments**          | Integrated with secure online payment gateways                               |
+| 🔔 **Real-Time Notifications**  | Get instant feedback using toast messages                                    |
+| 📴 **Offline Mode Detection**   | Automatically detects and handles offline scenarios                          |
+| 📱 **Responsive Design**        | Fully optimized for desktop, tablet, and mobile devices                     |
 
-2. 🏠 **Home Page**  
-   - Product listing with the ability to add to cart or view details  
-
-3. 🛒 **Cart Management**  
-   - View, update, or remove items from the cart  
-
-4. ❤️ **Wishlist**  
-   - Add/remove products to/from favorites  
-
-5. 🗂️ **Categories & Brands**  
-   - Browse and filter products by category and brand  
-
-6. 🔍 **Search Functionality**  
-   - Search for products by name  
-
-7. 💳 **Online Payment**  
-   - Integration with secure payment methods  
-
-8. 🔔 **Notifications**  
-   - Real-time alerts and user feedback using toast messages  
-
-9. 📴 **Offline Mode Detection**  
-   - Handles network issues gracefully  
-
-10. 📱 **Responsive Design**  
-    - Fully responsive across desktop, tablet, and mobile  
 
 ---
 
@@ -75,15 +64,10 @@ This application provides users with a modern and responsive interface to browse
 - **UI/UX**: Bootstrap, React Slick (Carousel), React Toastify, React Helmet  
 
 ---
+## 📌 Deployment
 
-## 🎥 Demo Video
+Front End deployed on Versel , The backend hosting was deployed on a free tier which has now expired. However, you can view detailed screenshots & Video and the full design experience above.
 
-[▶️ Watch Demo](https://drive.google.com/file/d/your-demo-id/view)
-
-> Replace the link with your actual demo video hosted on Google Drive or YouTube.  
-> Add a thumbnail in the `screenshots/` folder if needed.
-
----
 
 ## 📄 How to Run Locally
 
