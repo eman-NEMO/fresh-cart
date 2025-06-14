@@ -14,8 +14,6 @@ This application provides users with a modern and responsive interface to browse
 
 [▶️ Watch Demo](https://drive.google.com/file/d/your-demo-id/view)
 
-> Replace the link with your actual demo video hosted on Google Drive or YouTube.  
-> Add a thumbnail in the `screenshots/` folder if needed.
 
 ---
 ## 📸 Screenshot From Deployed Demo 
@@ -45,7 +43,7 @@ This application provides users with a modern and responsive interface to browse
 | 🏠 **Home Page**                | Product listing with options to add items to cart or view detailed info     |
 | 🛒 **Cart Management**          | Easily view, update, or remove products from the cart                       |
 | ❤️ **Wishlist**                 | Save favorite products to a personalized wishlist                            |
-| 🗂️ **Categories & Brands**      | Filter products efficiently by category and brand                            |
+| 🗂️ **Categories & Brands**      | Category and brand                            |
 | 🔍 **Product Search**           | Quickly search for items by name                                             |
 | 💳 **Online Payments**          | Integrated with secure online payment gateways                               |
 | 🔔 **Real-Time Notifications**  | Get instant feedback using toast messages                                    |
@@ -73,5 +71,5 @@ Front End deployed on Versel , The backend hosting was deployed on a free tier w
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ecommerce-app.git
+   git clone https://github.com/eman-NEMO/fresh-cart.git
    cd ecommerce-app
