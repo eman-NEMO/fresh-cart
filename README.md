@@ -1,26 +1,92 @@
-#  E-commerce Application
+# 🛒 E-Commerce Application
 
- ## fully functional single-page e-commerce application using React.js, and pre-existing backend. I implemented the following key features:
+A fully functional single-page e-commerce web application built with **React.js**.  
+The project integrates with a pre-existing backend and includes user-friendly features for a seamless shopping experience.
 
-1- User Registration & Login with Form Validation.
+---
 
-2- Home Page with the ability to add products to the cart and view product details.
+## 📌 Overview
 
-3- Cart Page to display and manage the products added by the user.
+This application provides users with a modern and responsive interface to browse products, manage their shopping cart, wishlist items, and perform secure online payments. Built with performance and usability in mind, it ensures an intuitive shopping journey from start to finish.
 
-4- Wishlist functionality for users to favourite their preferred products.
+---
 
-5- Categories and Brands for efficient product categorization.
+## 🚀 Features
 
-6- Product search functionality to help users find specific items.
+1. 🔐 **User Authentication**  
+   - User registration & login with form validation  
+   - Handling of authentication and authorization securely
 
-7- Online payment methods for user convenience.
+2. 🏠 **Home Page**  
+   - Product listing with the ability to add to cart or view details  
 
-8- Notifications for updates and alerts.
+3. 🛒 **Cart Management**  
+   - View, update, or remove items from the cart  
 
-9- Offline mode detection to ensure a seamless user experience.
+4. ❤️ **Wishlist**  
+   - Add/remove products to/from favorites  
 
-10- Handling authentication and authorization.
+5. 🗂️ **Categories & Brands**  
+   - Browse and filter products by category and brand  
 
-I utilized tools like Bootstrap and React libraries such as react router dom, formik, yup, react slick, React toastify, React Helmet, React Query, and Axios for API calls. Additionally, I ensured a responsive design that aligned seamlessly with the backend data
-  
+6. 🔍 **Search Functionality**  
+   - Search for products by name  
+
+7. 💳 **Online Payment**  
+   - Integration with secure payment methods  
+
+8. 🔔 **Notifications**  
+   - Real-time alerts and user feedback using toast messages  
+
+9. 📴 **Offline Mode Detection**  
+   - Handles network issues gracefully  
+
+10. 📱 **Responsive Design**  
+    - Fully responsive across desktop, tablet, and mobile  
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend**: React.js  
+- **Routing**: React Router DOM  
+- **Form Handling**: Formik + Yup  
+- **State & Data Fetching**: React Query, Axios  
+- **UI/UX**: Bootstrap, React Slick (Carousel), React Toastify, React Helmet  
+- **Authentication**: JWT (Token-based)  
+
+---
+
+## 📸 Screenshots
+
+> Add your screenshots to the `screenshots/` folder and reference them below.
+
+<p align="center">
+  <img src="./screenshots/homepage.png" alt="Home Page" width="700"/>
+</p>
+
+<p align="center">
+  <img src="./screenshots/cart.png" alt="Cart Page" width="700"/>
+</p>
+
+<p align="center">
+  <img src="./screenshots/wishlist.png" alt="Wishlist" width="700"/>
+</p>
+
+---
+
+## 🎥 Demo Video
+
+[▶️ Watch Demo](https://drive.google.com/file/d/your-demo-id/view)
+
+> Replace the link with your actual demo video hosted on Google Drive or YouTube.  
+> Add a thumbnail in the `screenshots/` folder if needed.
+
+---
+
+## 📄 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ecommerce-app.git
+   cd ecommerce-app
